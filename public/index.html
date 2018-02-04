@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <title>Kuntopuntarit</title>
+</head>
+<body>
+  <p>Kuntopuntarit</p>
+
+  <table>
+  <tr>
+  <th scope="row">Match:</th>
+  <td>
+  <select name="hometeam" id="hometeam">
+    <option value="ARS">Arsenal</option>
+    <option value="BOU">Bournemouth</option>
+    <option value="BHA">Brighton & Howe</option>
+    <option value="BUR">Burnley</option>
+    <option value="CHE">Chelsea</option>
+    <option value="CRY">Chrystal Palace</option>
+    <option value="EVE">Everton</option>
+    <option value="HUD">Huddersfield Town</option>
+    <option value="LEI">Leicester</option>
+    <option value="LIV">Liverpool</option>
+    <option value="MCI">Manchester City</option>
+    <option value="MUN">Manchester United</option>
+    <option value="NEW">Newcastle United</option>
+    <option value="SOU">Southampton</option>
+    <option value="STK">Stoke City</option>
+    <option value="SWA">Swansea</option>
+    <option value="TOT">Tottenham</option>
+    <option value="WAT">Watford</option>
+    <option value="WBA">West Brom</option>
+    <option value="WHU">West Ham</option>
+      </select>
+  </td>
+  <td>
+    <select name="awayteam" id="awayteam">
+      <option value="ARS">Arsenal</option>
+      <option value="BOU">Bournemouth</option>
+    <option value="BHA">Brighton & Howe</option>
+    <option value="BUR">Burnley</option>
+    <option value="CHE">Chelsea</option>
+    <option value="CRY">Chrystal Palace</option>
+    <option value="EVE">Everton</option>
+    <option value="HUD">Huddersfield Town</option>
+    <option value="LEI">Leicester</option>
+    <option value="LIV">Liverpool</option>
+    <option value="MCI">Manchester City</option>
+    <option value="MUN">Manchester United</option>
+    <option value="NEW">Newcastle United</option>
+    <option value="SOU">Southampton</option>
+    <option value="STK">Stoke City</option>
+    <option value="SWA">Swansea</option>
+    <option value="TOT">Tottenham</option>
+    <option value="WAT">Watford</option>
+    <option value="WBA">West Brom</option>
+    <option value="WHU">West Ham</option>
+      </select>
+  </td>
+</tr>
+
+<tr>
+<th scope="row">Result:</th>
+<td>
+    <input type="text name="homegoals" size="5" id="homegoals">
+  </td>
+<td>
+    <input type="text name="awaygoals" size="5" id="awaygoals">
+  </td>
+</tr>
+
+<tr>
+  <th scope="row">Possession-%:</th>
+<td>
+    <input type="text name="homeposession" size="5" id="homeposession">
+  </td>
+<td>
+    <input type="text name="awayposession" size="5" id="awayposession">
+  </td>
+  </tr>
+
+<tr>
+  <th scope="row">Shots On Target:</th>
+<td>
+    <input type="text name="homeshotsont" size="5" id="homeshotsont">
+  </td>
+<td>
+    <input type="text name="awayshotsont" size="5" id="awayshotsont">
+  </td>
+  </tr>
+
+<tr>
+  <th scope="row">Shots:</th>
+<td>
+    <input type="text name="homeshots" size="5" id="homeshots">
+  </td>
+<td>
+    <input type="text name="awayshots" size="5" id="awayshots">
+  </td>
+  </tr>
+
+<tr>
+  <th scope="row">Red Cards:</th>
+<td>
+    <input type="text name="homeredcards" size="5" id="homeredcards">
+  </td>
+<td>
+    <input type="text name="awayredcards" size="5" id="awayredcards">
+  </td>
+  </tr>
+  </table>
+
+  <form id="ottelu-lomake">
+    <button>Lähetä</button>
+  </form>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/jquery-3.3.1.min.js"></script>
+  <script src="/index.js"></script>
+
+</body>
+</html>

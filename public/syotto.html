@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="dcterms.created" content="ke, 29 marras 2017 09.43.46 GMT">
+    <meta name="description" content="Ottelutuloksien ja muun datan syöttö">
+    <meta name="keywords" content="">
+    <title>Otteluiden syöttö</title>
+
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <div>
+  <form action="/mongoa.js" method="post" id="ottelu">
+    <br/>
+    <table>
+	  <tr>
+    <th scope="row">Match:</th>
+    <td>
+		<select name="hometeam">
+    	<option value="ARS">Arsenal</option>
+   		<option value="BOU">Bournemouth</option>
+		  <option value="BHA">Brighton & Howe</option>
+		  <option value="BUR">Burnley</option>
+		  <option value="CHE">Chelsea</option>
+		  <option value="CRY">Chrystal Palace</option>
+		  <option value="EVE">Everton</option>
+		  <option value="HUD">Huddersfield Town</option>
+		  <option value="LEI">Leicester</option>
+		  <option value="LIV">Liverpool</option>
+		  <option value="MCI">Manchester City</option>
+		  <option value="MUN">Manchester United</option>
+		  <option value="NEW">Newcastle United</option>
+		  <option value="SOU">Southampton</option>
+		  <option value="STK">Stoke City</option>
+		  <option value="SWA">Swansea</option>
+		  <option value="TOT">Tottenham</option>
+		  <option value="WAT">Watford</option>
+		  <option value="WBA">West Brom</option>
+		  <option value="WHU">West Ham</option>
+      	</select>
+    </td>
+    <td>
+  		<select name="awayteam">
+    	  <option value="ARS">Arsenal</option>
+   		  <option value="BOU">Bournemouth</option>
+		  <option value="BHA">Brighton & Howe</option>
+		  <option value="BUR">Burnley</option>
+		  <option value="CHE">Chelsea</option>
+		  <option value="CRY">Chrystal Palace</option>
+		  <option value="EVE">Everton</option>
+		  <option value="HUD">Huddersfield Town</option>
+		  <option value="LEI">Leicester</option>
+		  <option value="LIV">Liverpool</option>
+		  <option value="MCI">Manchester City</option>
+		  <option value="MUN">Manchester United</option>
+		  <option value="NEW">Newcastle United</option>
+		  <option value="SOU">Southampton</option>
+		  <option value="STK">Stoke City</option>
+		  <option value="SWA">Swansea</option>
+		  <option value="TOT">Tottenham</option>
+		  <option value="WAT">Watford</option>
+		  <option value="WBA">West Brom</option>
+		  <option value="WHU">West Ham</option>
+      	</select>
+  	</td>
+	</tr>
+
+	<tr>
+	<th scope="row">Result:</th>
+	<td>
+  		<input type="text name="homegoals" size="5">
+  	</td>
+	<td>
+  		<input type="text name="awaygoals" size="5">
+  	</td>
+	</tr>
+
+	<tr>
+    <th scope="row">Possession-%:</th>
+	<td>
+  		<input type="text name="homeposession" size="5">
+  	</td>
+	<td>
+  		<input type="text name="awayposession" size="5">
+  	</td>
+    </tr>
+
+	<tr>
+    <th scope="row">Shots On Target:</th>
+	<td>
+  		<input type="text name="homeshotsont" size="5">
+  	</td>
+	<td>
+  		<input type="text name="awayshotsont" size="5">
+  	</td>
+    </tr>
+
+	<tr>
+    <th scope="row">Shots:</th>
+	<td>
+  		<input type="text name="homeshots" size="5">
+  	</td>
+	<td>
+  		<input type="text name="awayshots" size="5">
+  	</td>
+    </tr>
+
+	<tr>
+    <th scope="row">Red Cards:</th>
+	<td>
+  		<input type="text name="homeredcards" size="5">
+  	</td>
+	<td>
+  		<input type="text name="awayredcards" size="5">
+  	</td>
+    </tr>
+    </table>
+  	<input type="submit" value="Tallenna">
+  </form>
+  </div>
+
+  </body>
+</html>
